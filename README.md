@@ -17,7 +17,7 @@ _This is mostly for theming purposes, the actual building is in the main Surfbir
 
 * `npm install`/`npm i` to install needed assets and packages
 * `gulp sass` to compile the style.scss into `dist/style.css`
-* `gulp watch` to compile `style.scss everytime a file changes
+* `gulp watch` to compile `style.scss` everytime a file changes
 
 If you want to add a new component or extra file, add it as
 `components/_componentname.scss`, the underscore prevents the
