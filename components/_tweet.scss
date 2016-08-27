@@ -5,6 +5,9 @@ $tweet-context-color: #8899a6;
 $tweet-action-color: $tweet-context-color;
 $tweet-action-hover: #000;
 
+$tweet-retweet-active: #19cf86;
+$tweet-like-active: #be1931;
+
 $tweet-avatar-offset: 58px;
 $tweet-avatar-size: 48px;
 $tweet-avatar-margin: 10px;
@@ -71,6 +74,14 @@ $tweet-avatar-small-offset: 36px;
 
                 &:hover {
                     color: $tweet-action-hover;
+                }
+
+                &[rel="retweet"].active {
+                    color: $tweet-retweet-active;
+                }
+
+                &[rel="favorite"].active {
+                    color: $tweet-like-active;
                 }
             }
         }
