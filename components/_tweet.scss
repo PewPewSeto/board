@@ -76,11 +76,11 @@ $tweet-avatar-small-offset: 36px;
                     color: $tweet-action-hover;
                 }
 
-                &[rel="retweet"].active {
+                &[rel="retweet"] .active {
                     color: $tweet-retweet-active;
                 }
 
-                &[rel="favorite"].active {
+                &[rel="favorite"] .active {
                     color: $tweet-like-active;
                 }
             }
