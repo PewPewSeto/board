@@ -2,6 +2,7 @@ $drawer-width: 270px;
 
 $compose-bg: #2b7bb9;
 $compose-bg-active: #fff;
+$compose-reply-bg: #e1e8ed;
 $compose-input-bg: #fff;
 $compose-input-text: #111;
 $compose-title: #88c9f9;
@@ -39,6 +40,18 @@ $compose-header-height: 90px;
         bottom: 0;
         left: 0;
         right: 0;
+    }
+
+    &-reply {
+      background-color: $compose-reply-bg;
+      font-size: 13px;
+      padding: 10px;
+
+      .tweet-avatar.small {
+        margin-left: 0;
+        float: none;
+        }
+      }
     }
 
     &-input, .compose-message {
